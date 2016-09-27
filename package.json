@@ -2,6 +2,9 @@
   "name": "polling-booth",
   "version": "0.0.0",
   "main": "server/index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Ajinkya009/fcc_voting_app.git"
@@ -47,6 +50,6 @@
   },
   "homepage": "https://github.com/Ajinkya009/fcc_voting_app#readme",
   "engines": {
-    "node": ">=0.10.0"
+    "node": "4.4.5"
   }
 }

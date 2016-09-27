@@ -45,5 +45,8 @@
   "bugs": {
     "url": "https://github.com/Ajinkya009/fcc_voting_app/issues"
   },
-  "homepage": "https://github.com/Ajinkya009/fcc_voting_app#readme"
+  "homepage": "https://github.com/Ajinkya009/fcc_voting_app#readme",
+  "engines": {
+    "node": ">=0.10.0"
+  }
 }

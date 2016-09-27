@@ -1,0 +1,203 @@
+/* app css stylesheet */
+
+html *{
+  font-family: Gotham, Tahoma, sans-serif !important;
+}
+
+  .background{
+    height:100%;
+  }
+
+.header{
+  background-color: #3299CC;
+  height: 120px;
+  color: white;
+  font-size: 45px;
+  margin-top:05px;
+  padding-top: 30px;
+  text-align:center;
+  border-radius: 2px;
+}
+
+
+
+.btn-default:hover{
+  background-color: #3299CC;
+  color: white;
+}
+
+.btn-default:focus{
+  outline: none;
+  background-color: #3299CC;
+  color: white;
+}
+
+
+
+.list{
+  font-size: 20px;
+  list-style-type: none;
+  margin-top: 30px;
+  width: 100%;
+  text-align:center;
+}
+
+.question{
+  width: 100%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #3299CC;
+  border-collapse: collapse;
+  margin-top: -1px;
+  cursor:pointer;
+  background-color:#F0F8FF;
+  outline: none;
+  color: #00688B;
+}
+
+
+.select{
+  width :350px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+
+.question:hover{
+  color: #F47A53;
+  
+}
+
+
+.btn-danger:focus{
+  outline:none;
+}
+
+a{
+  color: inherit !important;
+  text-decoration: none !important;
+  display: block;
+}
+
+.container{
+  margin-top : 50px;
+}
+
+.pollview{
+  background-color: #F0FFFF;
+  margin-left: 5%;
+  border: solid 2px;
+  border-color: #3299CC;
+  border-radius: 5px;
+  padding-top: 30px;
+}
+
+.view_question{
+  color: #00688B;
+}
+
+.selectOpt{
+  font-size: large;
+  color: #00688B;
+  border-radius: 4px;
+  width: 40%;
+  height: 10%;
+  outline: none;
+}
+
+.twitter-share-button{
+  margin-left: 15%;
+  margin-top: 2%;
+  
+}
+
+.logindiv{
+  background-color: #D1EEEE;
+  height: 300px;
+  width: 228px;
+  margin-top: 6%;
+  margin-left: 40%;
+}
+
+.flogin{
+  margin-top: 45%;
+}
+
+.error{
+  margin-left:30%;
+  margin-top: 10%;
+}
+
+.buttons{
+  padding-left: 81%;
+  padding-top:1%;
+}
+
+.pollCreatediv{
+  margin-top: 8%;
+  border: solid 2px;
+  border-color: #3299CC;
+  border-radius: 6px;
+  padding: 22px 10px 22px 10px;
+}
+
+.pollcreate{
+  margin-top: 7%;
+  margin-left: 24%;
+}
+
+.qfield, .ofield{
+  width: 30%
+}
+
+.greetings {
+  margin-left: 25%;
+  font-size: 55px;
+  color: #3299CC;
+  margin-bottom: 0px;
+}
+
+.yourpolls{
+  margin-left: 43%;
+  color: #3299CC;
+  font-size: 41px;
+}
+
+.prfPollList{
+  width:100%;
+  font-size: 21px;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #3299CC;
+  border-collapse: collapse;
+  margin-top: -1px;
+  cursor:pointer;
+  background-color:#D1EEEE;
+  outline: none;
+  color: #00688B;
+  padding-top: 10px;
+}
+
+.prflLelement{
+  list-style-type: none;
+  width: 100%;
+}
+
+.prfPollList:hover{
+  color: #F47A53;
+  
+}
+.btn-xs{
+  margin-top: 1%;
+}
+
+.pollCreateButton{
+  margin-left: 47%;
+}
+
+label{
+  color:#3299CC;
+  font-size: 21px;
+}
+

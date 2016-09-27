@@ -1,0 +1,23 @@
+
+<div ng-controller="profileController as prfctrl">
+    
+    <p class="greetings">Welcome {{prfctrl.user.facebook.firstName}}</p>
+    <p class="yourpolls" ng-show ="prfctrl.user.pollList.length">Your polls:</p>
+    
+    
+    <div ng-repeat="poll in prfctrl.user.pollList">
+        <div class="prfPollList">
+            <ul>
+            <li class="prflLelement"><a href="" ng-click="openurl('/list/question/'+poll)">{{poll}}</a></li>
+            <button class='btn btn-danger btn-xs'ng-click="delete('/list/delete/'+poll)">Delete</button>
+            </ul>
+            
+        </div>
+    </div>
+    </br>
+    </br>
+    <div class="createButtonDiv">
+        <button class='pollCreateButton btn btn-success btn-lg'><a href="/#/create">Create Poll</a></button>
+    </div>
+    
+</div>

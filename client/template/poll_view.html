@@ -1,0 +1,17 @@
+<div class='container row pollview' >
+    <div class="col-md-6 form" ng-repeat="poll in pollView.polls">
+        <h2 class="view_question">{{poll.question}}</h2>
+        <form name="pollForm">
+            <select class = "selectOpt" ng-model="option" ng-options="v.option for v in poll.vote">
+                <option value="">Choose an option</option>
+            </select>
+            <button  class='btn btn-primary btn-medium' ng-controller="submitPoll" ng-click="submitOption(poll._id,option)">Submit</button>
+            
+        </form>
+        <a  target="_blank" href="https://twitter.com/share" class="twitter-share-button" data-size="medium" data-show-count="false">Tweet</a>
+    </div>
+    <div class="col-md-6 chart">
+        <canvas id="myChart" ></canvas>    
+    </div>
+    
+</div>

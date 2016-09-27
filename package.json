@@ -1,0 +1,36 @@
+{
+  "name": "polling-booth",
+  "version": "0.0.0",
+  "description": "A chat example to showcase how to use `socket.io` with a static `express` server with `async` for control flow.",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ajinkya009/fcc_voting_app.git"
+  },
+  "author": "Mostafa Eweda <mo.eweda@gmail.com>",
+  "dependencies": {
+    "async": "~0.2.8",
+    "consolidate": "^0.14.1",
+    "dotenv": "^2.0.0",
+    "express": "~3.2.4",
+    "express-session": "^1.14.1",
+    "mongodb": "^2.2.10",
+    "passport": "^0.3.2",
+    "passport-facebook": "^2.1.1",
+    "passport-github": "^1.1.0",
+    "passport-google": "^0.3.0",
+    "socket.io": "~0.9.14"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ajinkya009/fcc_voting_app/issues"
+  },
+  "homepage": "https://github.com/Ajinkya009/fcc_voting_app#readme"
+}

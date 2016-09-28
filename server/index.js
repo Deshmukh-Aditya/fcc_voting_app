@@ -11,7 +11,7 @@ var routes = require('./routes');
 var methodOverride = require('method-override');
 var port = 8080;
 var ip = process.env.IP;
-var db = mongoose.connect('mongodb://localhost/meanapp');
+var db = mongoose.connect(' mongodb://Ajinkya:9921956339@ds042698.mlab.com:42698/pollapp');
 var poll = db.model('poll',polls);
 
 var passport = require('passport');

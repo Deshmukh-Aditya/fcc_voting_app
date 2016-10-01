@@ -1,22 +1,19 @@
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+<head>
+</head>
+<body>
+<h1>Voting App Basejump</h1>
 
 
-Welcome to your Node.js project on Cloud9 IDE!
+<h2>User Stories Implemented:</h2>
+<ol>
+<li>As an authenticated user, I can keep my polls and come back later to access them.</li>
+<li>As an authenticated user, I can share my polls with my friends.</li>
+<li>As an authenticated user, I can see the aggregate results of my polls.</li>
+<li>As an authenticated user, I can delete polls that I decide I don't want anymore.</li>
+<li>As an authenticated user, I can create a poll with any number of possible items.</li>
+<li>As an unauthenticated or authenticated user, I can see and vote on everyone's polls.</li>
+<li>As an unauthenticated or authenticated user, I can see the results of polls in chart form. (This could be implemented using Chart.js or Google Charts.)</li>
+</ol>
 
-This chat example showcases how to use `socket.io` with a static `express` server.
-
-## Running the server
-
-1) Open `server.js` and start the app by clicking on the "Run" button in the top menu.
-
-2) Alternatively you can launch the app from the Terminal:
-
-    $ node server.js
-
-Once the server is running, open the project in the shape of 'https://projectname-username.c9.io/'. As you enter your name, watch the Users list (on the left) update. Once you press Enter or Send, the message is shared with all connected clients.
+</body>

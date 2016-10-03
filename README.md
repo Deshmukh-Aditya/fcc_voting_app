@@ -14,4 +14,5 @@
 
 ### Preview:
 
-![voting_app](https://cloud.githubusercontent.com/assets/18378062/19033634/0989180c-897d-11e6-8282-0c8616c3ca7a.jpg)
+![voting_app](https://cloud.githubusercontent.com/assets/18378062/19033738/975c6aee-897d-11e6-9180-b5f83a0ae0df.jpg)
+

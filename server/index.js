@@ -9,9 +9,9 @@ var polls = require('./models/poll');
 var user = require("./models/user");
 var routes = require('./routes');
 var methodOverride = require('method-override');
-var port = 8080;
+var port = process.env.PORT;
 var ip = process.env.IP;
-var db = mongoose.connect(PROCESS.ENV.MONGOLAB_URI);
+var db = mongoose.connect(process.env.MONGOLAB_URI);
 var poll = db.model('poll',polls);
 
 var passport = require('passport');

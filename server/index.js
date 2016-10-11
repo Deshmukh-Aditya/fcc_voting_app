@@ -16,7 +16,7 @@ var poll = db.model('poll',polls);
 
 var passport = require('passport');
 var session = require('express-session');
-require('dotenv').config({path: '../.env'});
+require('dotenv').config({silent: true});
 require('./auth/facebook/passport')(passport);
 
 mongoose.connection.once('open', function() {

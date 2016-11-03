@@ -30,7 +30,6 @@ ang.factory("Poll",['$http',function PollingApp($http){
               type: 'bar',
               data: {
                   labels: pollOption,
-                  showScale: false,
                   datasets: [{
                       label:"",
                       data: pollCount,
@@ -58,19 +57,11 @@ ang.factory("Poll",['$http',function PollingApp($http){
                       display: false
                   },
                   scales: {
-                      xAxes: [{
-                          gridLines: {
-                             display:false
-                          }   
-                      }],
                       yAxes: [{
                           ticks: {
                               beginAtZero: true,
                               stepSize: 1
-                          },
-                          gridLines: {
-                             display:false
-                          }   
+                          }
                       }]
                   }
               }

@@ -67,6 +67,10 @@ ang.factory("Poll",['$http',function PollingApp($http){
                               beginAtZero: true,
                               stepSize: 1
                           },
+                          scaleLabel: {
+                              display: false,
+                              labelString: '# of votes'
+                          },
                           gridLines: {
                              display:false
                           }   

@@ -27,7 +27,7 @@ ang.factory("Poll",['$http',function PollingApp($http){
           var ctx = document.getElementById("myChart");
           
           var myChart = new Chart(ctx, {
-              type: 'bar',
+              type: 'pie',
               data: {
                   labels: pollOption,
                   datasets: [{
@@ -54,14 +54,11 @@ ang.factory("Poll",['$http',function PollingApp($http){
               },
               options: {
                   legend: {
-                      display: false
+                      display: true
                   },
                   scales: {
                       yAxes: [{
-                          ticks: {
-                              beginAtZero: true,
-                              stepSize: 1
-                          }
+                          display: false
                       }]
                   }
               }

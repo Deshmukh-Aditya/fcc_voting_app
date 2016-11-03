@@ -57,11 +57,19 @@ ang.factory("Poll",['$http',function PollingApp($http){
                       display: false
                   },
                   scales: {
+                      xAxes: [{
+                          gridLines: {
+                             display:false
+                          }   
+                      }],
                       yAxes: [{
                           ticks: {
                               beginAtZero: true,
                               stepSize: 1
-                          }
+                          },
+                          gridLines: {
+                             display:false
+                          }   
                       }]
                   }
               }
